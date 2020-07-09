@@ -1,0 +1,34 @@
+a .navbar-brand{
+max-width: 200px;
+}
+li .nav-item{
+    padding: 0px 10px;
+}
+.nav-item:last-child{
+    padding-right: 0px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+.navbar-nav a:hover{
+    color: #5498e6!important;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(45deg,#0eca92,#5498e6);
+    border-image-slice: 1;
+}
+.banner-content p{
+    max-width: 403px;
+}
+.green-highlight{
+    color: #21b573;
+}
+section .navbar-section, .banner-area{
+    background: #f0fff0;
+}
+.btn-success{
+    padding: 15px 40px;
+    border-radius: 33px;
+    line-height: 19px;
+    background-color: #21b573;
+    border: none;
+}
